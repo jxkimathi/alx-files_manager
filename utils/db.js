@@ -1,4 +1,4 @@
-import mongodb from 'mongodb'
+const mongodb = require('mongodb')
 import Collection from 'mongodb/lib/collection'
 
 class DBClient {
