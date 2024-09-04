@@ -1,8 +1,5 @@
-import express from 'express';
-import envLoader from './env_loader';
-import routes from './routes/index';
-
-envLoader();
+const express = require('express');
+const routes = require('./routes/index');
 
 const app = express();
 const port = process.env.PORT || 5000;
